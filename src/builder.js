@@ -4,7 +4,7 @@ export default class Builder {
     static async build(viewport) {
         const launchOptions = {
             headless: false,
-            slowMo: 0,
+            slowMo: 50,
             args: [
                 "--no-sandbox",
                 "--disable-setui-sandbox",

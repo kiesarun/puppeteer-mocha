@@ -20,7 +20,7 @@ var Builder = function () {
         value: async function build(viewport) {
             var launchOptions = {
                 headless: false,
-                slowMo: 0,
+                slowMo: 50,
                 args: ["--no-sandbox", "--disable-setui-sandbox", "--disable-web-security"]
             };
 
